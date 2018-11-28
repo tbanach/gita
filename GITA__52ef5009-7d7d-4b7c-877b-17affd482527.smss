@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	52ef5009-7d7d-4b7c-877b-17affd482527
+ENGINE_ALIAS	GITA
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+OWL	db/@ENGINE@/GITA_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
